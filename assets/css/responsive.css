@@ -1,6 +1,6 @@
 @media (max-width: 1380px) {
     .vestine-grid {
-        grid-template-columns: repeat(3, minmax(0, 1fr)); /* Prelazi u 3 kolone */
+        grid-template-columns: repeat(3, minmax(0, 1fr)); 
         gap: 20px;
     }
     
@@ -25,22 +25,22 @@
     /* O MENI */
     .o-meni-kartica {
         flex-direction: column; 
-        text-align: left; /* Tekst postaje centriran na mobilnom */
-        width: 80%; /* Malo širi prostor da tekst lepše legne */
+        text-align: left; 
+        width: 80%; 
         padding: 25px;
         align-items: center;
     }
     .o-meni-tekst {
-        text-align: left; /* Tekst ostaje levo poravnat, nema skakanja */
-        width: 100%;      /* Tekst zauzima punu širinu */
+        text-align: left; 
+        width: 100%;      
     }
     
     .moja-portfolio-slika {
-        max-width: 100%; /* Slika popunjava širinu */
-        width: 250px;    /* Fiksirana širina da bude stabilna */
-        height: 300px;   /* Zadržavamo visinu koju želiš */
-        margin: 0 auto;  /* Centriramo sliku */
-        display: block;  /* Osigurava da margina auto radi */
+        max-width: 100%; 
+        width: 250px;    
+        height: 300px;   
+        margin: 0 auto;  
+        display: block;  
     }
     .brze-info-mreza {
         flex-direction: column; 
@@ -57,7 +57,7 @@
 
     /* OBRAZOVANJE */
     .obrazovanje-grid {
-        grid-template-columns: 1fr; /* Evo ga! Ovde prelaze u jednu kolonu */
+        grid-template-columns: 1fr; 
         gap: 40px; 
     }
     .skola-kutija h3 { 
@@ -70,10 +70,7 @@
     }
 }
 
-/* ==========================================================================
-   2. MOBILNA REZOLUCIJA (max-width: 576px)
-   Opis sa slike: 1 kolona, hamburger meni, veći font
-   ========================================================================== */
+
 @media (max-width: 576px) {
     /* HERO SEKCIJA */
     .hero1 {
@@ -90,13 +87,13 @@
         font-size: 1.05rem;
         letter-spacing: 2px; 
     }
-    /* Osiguravamo da duži tekst na mobilnom ne probije ivice ekrana (Pravilo -10 bodova) */
+    
     .hero-tagline {
         font-size: 1rem;
         max-width: 90%; 
         padding: 0 5px;
     }
-    /* Blago smanjenje dugmeta prilagođeno ekranu telefona */
+    
     .moj-hero-btn {
         padding: 10px 22px;
         font-size: 1rem;
@@ -109,7 +106,7 @@
     }
 
     .o-meni-kartica {
-        flex-direction: column; /* Tekst i slika idu jedno ispod drugog */
+        flex-direction: column; 
         width: 90%;
         padding: 30px 20px;
         gap: 35px;
@@ -121,10 +118,10 @@
     
     .moja-portfolio-slika {
         max-width: 220px;
-        height: 280px; /* Savršena veličina portreta na ekranu telefona */
+        height: 280px; 
     }
     
-    /* Ikonice idu jedna ispod druge, centrirane na sredini ekrana */
+    
     .brze-info-mreza {
         flex-direction: column; 
         align-items: center;    
@@ -139,12 +136,12 @@
 
     /* OBRAZOVANJE */
     .obrazovanje-grid {
-        grid-template-columns: 1fr; /* Na mobilnom se sve ruši u jednu kolonu */
-        gap: 40px; /* Pravimo razmak između celih blokova škola */
+        grid-template-columns: 1fr; 
+        gap: 40px; 
     }
     
     .znanje-kutija {
-        flex-grow: 0; /* Isključujemo veštačko rastezanje jer su na mobilnom jedna ispod druge */
+        flex-grow: 0; 
     }
     
     .naslov-sekcije {
@@ -165,28 +162,28 @@
     }
     
     .btn-slanje {
-        width: 100%; /* Na mobilnom dugme ide preko celog ekrana radi lakšeg klika */
+        width: 100%; 
         text-align: center;
     }
     
     .kontakt-info-kolona, .kontakt-forma {
-        padding: 30px 20px; /* Malo smanjujemo padding na telefonu da tekst ima mesta */
+        padding: 30px 20px; 
     }
 
     /* FUTER */
     .futer-kontejner {
-        flex-direction: column; /* Na telefonu prelaze u kolonu jedan ispod drugog */
+        flex-direction: column; 
         justify-content: center;
         text-align: center;
     }
     
     .futer-linkovi {
-        flex-direction: column; /* Linkovi takođe idu jedan ispod drugog za lakše kliktanje */
+        flex-direction: column; 
         gap: 10px;
     }
     
     .separator {
-        display: none; /* Sakrivamo uspravnu crtu na telefonu jer nema smisla kad su linkovi u koloni */
+        display: none;
     }
 }
 
