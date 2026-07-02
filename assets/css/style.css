@@ -2,9 +2,9 @@
     box-sizing: border-box;
 }
 .navigacija-kontejner {
-    display: flex ; /* !important osigurava da naš kod ima prednost nad Bootstrapom */
-    justify-content: space-between; /* Gura logo na levu, a meni na desnu stranu */
-    align-items: center; /* Poravnava logo i linkove vertikalno po sredini */
+    display: flex ; 
+    justify-content: space-between; 
+    align-items: center; 
 }
 body{
     background-color: #94F2C1;
@@ -15,30 +15,30 @@ body{
 }
 
 .moja-navigacija {
-    background-color: #2c3e50 ; /* Isti kao pozadina da se stopi, ali možeš staviti i belu/tamnu #A0EBB9*/
-    padding-top: 15px;  /* Povećavamo gornji prostor */
-    padding-bottom: 15px; /* Povećavamo donji prostor */
-    border-bottom: double white /*1px solid rgba(0, 0, 0, 0.1); Suptilna, tanka linija ispod */;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05); /* Blaga senka za premium izgled */
+    background-color: #2c3e50 ;
+    padding-top: 15px;  
+    padding-bottom: 15px;
+    border-bottom: double white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05); 
 }
 
 .moja-navigacija .nav-link {
-    color: rgba(255, 255, 255, 0.85) ; /* Jasna bela slova, uočljiva na tamnoj pozadini */
-    padding: 8px 16px ; /* Pravi lep pravougaoni blok oko reči */
-    border-radius: 4px; /* Blago zaobljene ivice tog bloka */
+    color: rgba(255, 255, 255, 0.85) ; 
+    padding: 8px 16px ; 
+    border-radius: 4px; 
 }
 .zelena{
     color: #38ef7d;
 }
 .moja-navigacija .navbar-brand:hover {
-    color: #38ef7d !important; /* Čim se miš stavi na logo, reč "Bogdanović" postaje zelena */
+    color: #38ef7d !important; 
 }
-/*#B8EDA1*/
 
-/* MAGIJA: Kada miš pređe preko linka, on dobija toplu žutu boju sa vrha Hero sekcije! */
+
+
 .moja-navigacija .nav-link:hover {
-    background-color: #1a252f; /* Još tamniji blok iza slova */
-    color: #38ef7d ; /* Topla žuta koja skače u prvi plan */
+    background-color: #1a252f; 
+    color: #38ef7d ; 
 }
 
 .navbar-nav{
@@ -56,10 +56,10 @@ body{
     width: 100%; 
     min-height: 100vh; 
     border-bottom: 5px double white;
-    padding-top: 100px; /* Zaštita od fiksne navigacije */
+    padding-top: 100px; 
 }
 
-/* Stil za veliko ime */
+
 .hero-ime {
     font-size: 4.5rem; 
     color: #2c3e50; 
@@ -67,26 +67,26 @@ body{
     margin-bottom: 10px;
 }
 
-/* KOREKCIJA: Titula je sada znatno tamnija radi boljeg kontrasta */
+
 .hero-titula {
     font-size: 1.5rem;
-    font-weight: 600; /* Malo podebljano da bolje dođe do izražaja */
-    color: #2c3e50 !important; /* Promenjeno iz svetlo sive u tamnu */
+    font-weight: 600; 
+    color: #2c3e50 !important;
     letter-spacing: 5px; 
     margin-bottom: 20px;
 }
 
-/* KOREKCIJA: Tekst je sada tamniji (potpuno vidljiv) i ima normalnu debljinu */
+
 .hero-tagline {
     font-size: 1.25rem;
-    font-weight: 400; /* Podebljano sa 300 na 400 radi lakšeg čitanja */
-    color: #2c3e50; /* Tamna boja za savršen kontrast */
+    font-weight: 400;
+    color: #2c3e50; 
     max-width: 650px; 
     line-height: 1.6;
     margin-bottom: 30px;
 }
 
-/* NOVO: Elegantno, custom dugme usklađeno sa dizajnom sajta */
+
 .moj-hero-btn {
     background-color: #2c3e50;
     color: #ffffff;
@@ -98,7 +98,7 @@ body{
     transition: all 0.3s ease;
 }
 
-/* Hover efekat koji koristi zelenu boju iz tvog logotipa za premium detalj */
+
 .moj-hero-btn:hover {
     background-color: transparent;
     color: #2c3e50;
@@ -108,7 +108,7 @@ body{
 
 
 
-/* O MENI */
+
 .hero2 {
     padding-top: 170px;
     padding-bottom: 100px;
@@ -121,20 +121,20 @@ body{
 
 .o-meni-kartica {
     display: flex;
-    flex-direction: row; /* Tekst i slika jedno pored drugog */
+    flex-direction: row; 
     background-color: #ffffff;
     border-radius: 12px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
     width: 80%;
     margin: 0 auto;
     padding: 50px;
-    gap: 40px; /* Širok razmak za bogatiji izgled na monitoru */
+    gap: 40px;
     flex-wrap: wrap;
 }
 
 .o-meni-tekst {
     color: #555555;
-    flex: 1 1 500px; /* Sada se tekst širi/skuplja fleksibilno, sa osnovom od 500px */
+    flex: 1 1 500px; 
 }
 
 .o-meni-tekst h2 {
@@ -168,7 +168,7 @@ body{
     margin-bottom: 15px;
 }
 
-/* IKONICE: Na desktopu i laptopu stoje 3 u redu */
+
 .brze-info-mreza {
     display: flex;
     flex-direction: row; 
@@ -208,9 +208,9 @@ body{
     color: #777777;
 }
 
-/* SLIKA: Fokusirana isključivo na tvoj portret (gore) */
+
 .o-meni-vizuelno {
-    flex: 1 1 300px; /* Slika sada ima bazu od 300px, pa se neće gubiti */
+    flex: 1 1 300px; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -220,10 +220,10 @@ body{
 .moja-portfolio-slika {
     max-width: 280px; 
     width: 100%;
-    height: auto;              /* KLJUČ 1: Fiksna visina drži savršen oblik luka */
-    aspect-ratio: 3/4; /* Ovo drži sliku uvek u istom odnosu visine i širine */
-    object-fit: cover;          /* KLJUČ 2: Slika popunjava prostor bez rastezanja i deformacije */
-    object-position: top center; /* KLJUČ 3: Pretraživač se "zaključava" za vrh slike (tvoje lice), a seče višak dole */
+    height: auto;              
+    aspect-ratio: 3/4; 
+    object-fit: cover;          
+    object-position: top center; 
     border-radius: 120px 120px 30px 30px; 
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.07);
 }
@@ -232,7 +232,7 @@ body{
 
 
 /* OBRAZOVANJE */
-/* Generalni stilovi za sekciju */
+
 .sekcija-obrazovanje {
     padding-top: 100px;
     padding-bottom: 100px;
@@ -249,24 +249,24 @@ body{
 /* Tvoj glavni grid na desktopu */
 .obrazovanje-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr; /* Tačno 2 kolone (jedna pored druge) */
-    gap: 0 40px; /* 0px razmak gore-dole (da ostanu spojene), 40px levo-desno između škola */
-    align-items: stretch; /* KLJUČ 1: Prisiljava oba stuba da budu matematički jednake visine */
+    grid-template-columns: 1fr 1fr; 
+    gap: 0 40px; 
+    align-items: stretch; 
 }
 
-/* TAČNA KLASA IZ TVOG HTML-A: Ponaša se kao vertikalna celina */
+
 .obrazovanje-stub {
     display: flex;
     flex-direction: column;
-    height: 100%; /* Uzima punu visinu koju mu je grid odredio */
+    height: 100%; 
 }
 
-/* Gornje tamne kutije */
+
 .skola-kutija {
-    background-color: #2c3e50; /* Tamna tema */
+    background-color: #2c3e50; 
     color: #ffffff;
     padding: 30px;
-    border-radius: 12px 12px 0 0; /* Zaobljene samo gornje ivice */
+    border-radius: 12px 12px 0 0; 
     box-shadow: 0 4px 15px rgba(0,0,0,0.05);
 }
 
@@ -278,7 +278,7 @@ body{
 }
 
 .skola-kutija .smer {
-    color: #38ef7d; /* Brend zelena */
+    color: #38ef7d; 
     margin: 0;
     font-size: 1.05rem;
 }
@@ -290,15 +290,12 @@ body{
     border-radius: 20px;
 }
 
-/* Donje bele kutije sa znanjem */
+
 .znanje-kutija {
     background-color: #ffffff;
     padding: 35px;
-    border-radius: 0 0 12px 12px; /* Zaobljene samo donje ivice */
+    border-radius: 0 0 12px 12px; 
     box-shadow: 0 10px 25px rgba(0,0,0,0.05);
-    
-    /* KLJUČ 2: Tera kraću belu kutiju da proguta sav preostali slobodan prostor */
-    /* i tako se poravna sa onom dužom karticom pored sebe! */
     flex-grow: 1; 
 }
 
@@ -322,7 +319,7 @@ body{
     line-height: 1.6;
 }
 
-/* Moderne zelene crtice */
+
 .znanje-kutija ul li::before {
     content: "—";
     position: absolute;
@@ -335,50 +332,49 @@ body{
 
 
 /* VESTINE */
-/* Generalno podešavanje sekcije */
+
 .sekcija-vestine {
     padding-top: 80px;
     padding-bottom: 100px;
     width: 100%;
 }
 
-/* 1. MOĆNI CSS GRID RASPORD */
+
 .vestine-grid {
     display: grid;
-    /* Fiksirano na tačno 6 kolona jednake širine na velikim ekranima */
     grid-template-columns: repeat(6, minmax(0, 1fr));
-    gap: 25px; /* Razmak između svih kartica */
+    gap: 25px; 
     
 }
 
-/* 2. IZGLED POJEDINAČNE KARTICE */
+
 .vestina-kartica {
-    background-color: #ffffff; /* Bela pozadina, kao i "O meni" kartica */
+    background-color: #ffffff; 
     padding: 30px 20px;
     border-radius: 12px;
     text-align: center;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.04);
-    border: 2px solid transparent; /* Priprema za hover border */
+    border: 2px solid transparent; 
     transition: all 0.3s ease;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 100%; /* Prati visinu najviše kartice u redu */
-    min-width: 0; /* Sprečava da tekst probije širinu kartice */
+    height: 100%; 
+    min-width: 0; 
     
 }
 
-/* Tekst unutar kartice */
+
 .vestina-kartica h3 {
     font-size: 1.2rem;
-    color: #2c3e50; /* Tamno plava iz navigacije */
+    color: #2c3e50; 
     font-weight: 600;
     margin-top: 15px;
     margin-bottom: 5px;
 }
 .vestina-kartica h4{
     font-size: 1.0rem;
-    color: #2c3e50; /* Tamno plava iz navigacije */
+    color: #2c3e50; 
     font-weight: 600;
     margin-top: 15px;
     margin-bottom: 5px;
@@ -386,71 +382,71 @@ body{
 
 .vestina-kartica .nivo {
     font-size: 0.85rem;
-    color: #7f8c8d; /* Suptilna siva za nivo znanja */
+    color: #7f8c8d; 
 }
 
-/* Privremeni izgled za text-ikonice (dok ne stavimo prave) */
+
 .vestina-ikona {
     font-weight: bold;
     color: #2c3e50;
     font-size: 1.5rem;
 }
 
-/* 3. HOVER EFEKAT KOJI SPAJA NAVIGACIJU I KARTICU */
+
 .vestina-kartica:hover {
-    transform: translateY(-5px); /* Suptilno iskakanje na gore */
-    background-color: #2c3e50; /* Kartica dobija tamno plavu boju navigacije! */
-    border-color: #38ef7d;     /* Dobija tanki okvir u tvojoj brend zelenoj boji */
+    transform: translateY(-5px);
+    background-color: #2c3e50; 
+    border-color: #38ef7d;    
 }
 
-/* Kada je kartica tamna na hover, tekst unutra mora da promeni boju */
+
 .vestina-kartica:hover h3{
-    color: #ffffff; /* Naziv postaje beo */
+    color: #ffffff; 
 }
 .vestina-kartica:hover h4{
-    color: #ffffff; /* Naziv postaje beo */
+    color: #ffffff; 
 }
 .vestina-kartica:hover .nivo {
-    color: #38ef7d; /* Nivo znanja zasvetli u brend zelenoj boji */
+    color: #38ef7d; 
 }
 
 .vestina-kartica:hover .vestina-ikona {
-    color: #38ef7d; /* Ikona zasvetli u zelenoj boji */
+    color: #38ef7d; 
 }
 
 
 
 
 /* PROJEKTI */
-/* Podešavanje sekcije i magični scroll-margin za fiksni navbar */
+
 .sekcija-projekti {
     padding-top: 80px;
     padding-bottom: 100px;   
 }
 
-/* Izgled same kartice */
+
 .projekat-kartica {
-    background-color: #ffffff; /* Čisto bela pozadina */
+    background-color: #ffffff; 
     border-radius: 14px;
-    overflow: hidden; /* Čuva zaobljene ivice na vrhu slike */
+    overflow: hidden; 
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
-    height: 100%; /* Izjednačava visinu obe kartice u redu */
+    height: 100%; 
     display: flex;
     flex-direction: column;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Hover efekat for karticu */
+
 .projekat-kartica:hover {
     transform: translateY(-7px);
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
 }
 
-/* Gornji deo kartice gde piše ime projekta (ili ide skrinšot) */
+
 .projekat-slika-placeholder {
     height: 190px;
-    background-color: #2c3e50; /* Tamno plava */
-    color: #38ef7d;            /* Brend zelena */
+    background-color: #2c3e50; 
+    color: #38ef7d;            
     display: flex;
     justify-content: center;
     align-items: center;
@@ -459,12 +455,12 @@ body{
     letter-spacing: 1px;
 }
 
-/* Unutrašnji tekst kartice */
+
 .projekat-telo {
     padding: 25px;
     display: flex;
     flex-direction: column;
-    flex-grow: 1; /* Gura dugmad u istu ravan na dno */
+    flex-grow: 1; 
 }
 
 .projekat-telo h3 {
@@ -481,48 +477,48 @@ body{
     margin-bottom: 25px;
 }
 
-/* Tvoje brendirano dugme */
+
 .btn-projekat {
     display: inline-block;
     text-align: center;
-    background-color: #38ef7d; /* Brend zelena */
-    color: #1a252f;  /* Tamna slova radi kontrasta */
+    background-color: #38ef7d; 
+    color: #1a252f;  
     padding: 10px 20px;
     border-radius: 8px;
     text-decoration: none;
     font-weight: 600;
-    margin-top: auto; /* Lepi dugme za dno */
+    margin-top: auto; 
     transition: all 0.25s ease;
 }
 
-/* Hover za dugme */
+
 .btn-projekat:hover {
-    background-color: #2c3e50; /* Prelazi u teget */
-    color: #ffffff;  /* Slova postaju bela */
+    background-color: #2c3e50; 
+    color: #ffffff;  
 }
 
 
 /* KONTAKT */
-/* Podešavanje sekcije i magični skrol za navbar */
+
 .sekcija-kontakt {
     padding-top: 80px;
     padding-bottom: 100px;
-    background-color: transparent; /* Providno da se vidi pastelno zelena pozadina */
+    background-color: transparent; 
     scroll-margin-top: 90px;
 }
 
-/* Omotač koji spaja levu i desnu kolonu u kompaktnu celinu */
+
 .kontakt-mreza-omotac {
     max-width: 1000px;
     margin: 0 auto;
     border-radius: 14px;
-    overflow: hidden; /* Sprečava da oštre ivice kolona probiju zaobljenje */
+    overflow: hidden; 
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
 }
 
-/* LEVA TAMNA KOLONA (Sadrži brze informacije) */
+
 .kontakt-info-kolona {
-    background-color: #2c3e50; /* Tamno plava iz navigacije */
+    background-color: #2c3e50; 
     color: #ffffff;
     padding: 40px;
     display: flex;
@@ -543,7 +539,7 @@ body{
     margin-bottom: 30px;
 }
 
-/* Detalji (Email, telefon, mreže) unutar leve kolone */
+
 .kontakt-detalji {
     display: flex;
     flex-direction: column;
@@ -558,7 +554,7 @@ body{
 
 .detalj-ikona {
     font-size: 1.2rem;
-    background-color: rgba(56, 239, 125, 0.15); /* Prozirna brend zelena */
+    background-color: rgba(56, 239, 125, 0.15); 
     width: 38px;
     height: 38px;
     display: flex;
@@ -571,7 +567,7 @@ body{
 .detalj-stavka strong {
     display: block;
     font-size: 0.8rem;
-    color: #38ef7d; /* Brend zelena */
+    color: #38ef7d; 
     text-transform: uppercase;
 }
 
@@ -581,21 +577,21 @@ body{
     font-size: 0.9rem;
 }
 
-/* DESNA BELA KARTICA (Tvoja originalna forma, uklonjen box-shadow jer je sada na omotaču) */
+
 .kontakt-forma {
-    background-color: #ffffff; /* Čisto bela pozadina */
+    background-color: #ffffff; 
     padding: 40px;
-    border-radius: 0; /* Bootstrap g-0 klasa i omotač brinu o ivicama */
+    border-radius: 0; 
 }
 
-/* Stil za labele (tekst iznad polja) */
+
 .kontakt-forma .form-label {
-    color: #2c3e50; /* Tamno plava */
+    color: #2c3e50; 
     font-weight: 600;
     font-size: 0.95rem;
 }
 
-/* Bootstrap polja za unos */
+
 .kontakt-forma .form-control {
     border: 2px solid #e2e8f0;
     border-radius: 8px;
@@ -603,53 +599,50 @@ body{
     transition: all 0.35s ease;
 }
 
-/* Efekat kada se klikne u polje za kucanje */
+
 .kontakt-forma .form-control:focus {
-    border-color: #38ef7d; /* Brend zelena */
+    border-color: #38ef7d; 
     box-shadow: 0 0 0 3px rgba(56, 239, 125, 0.15);
     outline: none;
 }
 
-/* Dugme za slanje poruke */
+
 .btn-slanje {
-    background-color: #38ef7d; /* Brend zelena */
-    color: #1a252f; /* Tamna slova */
+    background-color: #38ef7d; 
+    color: #1a252f; 
     font-weight: 600;
     padding: 12px 35px;
     border: none;
     border-radius: 8px;
     cursor: pointer;
-    width: auto; /* Na desktopu prati širinu teksta */
+    width: auto; 
     transition: all 0.55s ease;
 }
 
-/* Hover efekat za dugme */
+
 .btn-slanje:hover {
-    background-color: #2c3e50; /* Prelazi u tamno plavu */
-    color: #ffffff; /* Slova postaju bela */
+    background-color: #2c3e50; 
+    color: #ffffff; 
 }
 
 
 
 
-/* FUTER */
-/* ==========================================
-   FUTER (Footer)
-   ========================================== */
+
 .moj-futer {
-    background-color: #2c3e50; /* Ista boja kao navbar za "sendvič" efekat */
-    color: rgba(255, 255, 255, 0.85); /* Tvoja uobičajena boja teksta */
+    background-color: #2c3e50; 
+    color: rgba(255, 255, 255, 0.85); 
     padding: 30px 0;
     margin-top: 50px;
-    border-top: 5px double white; /* Prati stil iz hero sekcije */
+    border-top: 5px double white; 
 }
 
-/* Glavni Flexbox kontejner */
+
 .futer-kontejner {
     display: flex; 
-    justify-content: space-between; /* Horizontalno poravnanje - gura elemente u ćoškove */
-    align-items: center; /* Vertikalno centriranje */
-    flex-wrap: wrap; /* Sprečava overflow greške ako ekran postane previše mali */
+    justify-content: space-between; 
+    align-items: center; 
+    flex-wrap: wrap; 
     gap: 20px;
 }
 
@@ -658,7 +651,7 @@ body{
     font-size: 1rem;
 }
 
-/* Flexbox za same linkove sa desne strane */
+
 .futer-linkovi {
     display: flex;
     align-items: center;
@@ -672,7 +665,7 @@ body{
     transition: color 0.3s ease;
 }
 
-/* Hover efekat sa tvojom zelenom bojom */
+
 .futer-link:hover {
     color: #38ef7d;
 }
@@ -681,7 +674,7 @@ body{
     color: rgba(255, 255, 255, 0.3);
 }
 
-/* Specijalan stil za PDF checklistu kako bi se isticala */
+
 .pdf-link {
     font-weight: 700;
     color: #38ef7d;
